@@ -1006,7 +1006,7 @@ class ViewController: UIViewController {
 		}
 		
 <<<<<<< HEAD
-		//hdd
+		//hddff
 =======
 >>>>>>> a756d9e5a2e08d631b13c7017d144f071bc4ba65
 		if canMoveFurther == true {
