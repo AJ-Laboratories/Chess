@@ -10,6 +10,7 @@
 		8F3113FE1A6A8DF80066FE44 /* ChessNowAppicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3113FD1A6A8DF80066FE44 /* ChessNowAppicon.png */; };
 		8F3114001A6A8E3D0066FE44 /* ChessNowAppicon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3113FF1A6A8E3D0066FE44 /* ChessNowAppicon120.png */; };
 		8F63938A1A37799B003E988E /* Objective-C.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6393891A37799B003E988E /* Objective-C.m */; };
+		8FC2AAD31B2F6C2200743029 /* chessIcon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC2AAD21B2F6C2200743029 /* chessIcon180.png */; };
 		8FD8D7CA1A1FE75000DC6BAB /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD8D7C91A1FE75000DC6BAB /* SpriteKit.framework */; };
 		8FE278AC1A37ADE30045F279 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE278AB1A37ADE30045F279 /* Storyboard.storyboard */; };
 		8FE278B01A37B3DE0045F279 /* 4z2J7aVXjPsNM3GaVLXDNQNlhxDHVzcCuEW89MT35PkA.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8FE278AF1A37B3DE0045F279 /* 4z2J7aVXjPsNM3GaVLXDNQNlhxDHVzcCuEW89MT35PkA.jpeg */; };
@@ -61,6 +62,7 @@
 		8F6393871A37799B003E988E /* ChessNow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChessNow-Bridging-Header.h"; sourceTree = "<group>"; };
 		8F6393881A37799B003E988E /* Objective-C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Objective-C.h"; sourceTree = "<group>"; };
 		8F6393891A37799B003E988E /* Objective-C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Objective-C.m"; sourceTree = "<group>"; };
+		8FC2AAD21B2F6C2200743029 /* chessIcon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chessIcon180.png; path = ../../../Pictures/chessIcon180.png; sourceTree = "<group>"; };
 		8FD8D7C91A1FE75000DC6BAB /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		8FE278AB1A37ADE30045F279 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		8FE278AF1A37B3DE0045F279 /* 4z2J7aVXjPsNM3GaVLXDNQNlhxDHVzcCuEW89MT35PkA.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4z2J7aVXjPsNM3GaVLXDNQNlhxDHVzcCuEW89MT35PkA.jpeg; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				F1CA18891B272787005D1B0A /* chess_analyze-button.png */,
 				F1CA188B1B2729C6005D1B0A /* chess_chat-button.png */,
 				F1E9B68C1B28AAE5003B2038 /* 1497753_700853469935234_1303434664_n.jpg */,
+				8FC2AAD21B2F6C2200743029 /* chessIcon180.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				TargetAttributes = {
 					8FFA0AF11A1FD09E0035B9C8 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = V47FUAKS5S;
 					};
 					8FFA0B061A1FD09E0035B9C8 = {
 						CreatedOnToolsVersion = 6.1;
@@ -329,6 +333,7 @@
 				8FEC1DF71A38E772004476DC /* pieceMarked.png in Resources */,
 				F153DF7D1A3DFDA2005DC574 /* whiteBishop.png in Resources */,
 				8FEC1DF91A38EF92004476DC /* blackPawn.png in Resources */,
+				8FC2AAD31B2F6C2200743029 /* chessIcon180.png in Resources */,
 				8FFA0AFF1A1FD09E0035B9C8 /* Images.xcassets in Resources */,
 				F1E9B68D1B28AAE5003B2038 /* 1497753_700853469935234_1303434664_n.jpg in Resources */,
 				F16B0E281A644FF700AD98CE /* blackKing.png in Resources */,
@@ -477,7 +482,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ChessNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ChessNow/ChessNow-Bridging-Header.h";
@@ -490,7 +497,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ChessNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ChessNow/ChessNow-Bridging-Header.h";
