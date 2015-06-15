@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1BF07BC06A7E112F0497CFE1D53F67CCB4E087E1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1BF07BC06A7E112F0497CFE1D53F67CCB4E087E1" : 0,
+    "55A9CEA8C88489658B2300CC5BFCE13DBACB341C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F8496B15-D78E-449B-A45D-D53B337FCF04",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1BF07BC06A7E112F0497CFE1D53F67CCB4E087E1" : "Chess\/",
+    "55A9CEA8C88489658B2300CC5BFCE13DBACB341C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ChessNow",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChessNow.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AJ-Laboratories\/Chess",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1BF07BC06A7E112F0497CFE1D53F67CCB4E087E1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:https:\/\/github.com\/Looc\/Chess.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55A9CEA8C88489658B2300CC5BFCE13DBACB341C"
+    }
+  ]
+}

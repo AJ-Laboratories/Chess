@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F8496B15-D78E-449B-A45D-D53B337FCF04</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChessNow</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>55A9CEA8C88489658B2300CC5BFCE13DBACB341C</key>
+		<string>https://github.com/Looc/ChessNow.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChessNow/ChessNow.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>55A9CEA8C88489658B2300CC5BFCE13DBACB341C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Looc/ChessNow.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>55A9CEA8C88489658B2300CC5BFCE13DBACB341C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>55A9CEA8C88489658B2300CC5BFCE13DBACB341C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ChessNow</string>
+		</dict>
+	</array>
+</dict>
+</plist>
