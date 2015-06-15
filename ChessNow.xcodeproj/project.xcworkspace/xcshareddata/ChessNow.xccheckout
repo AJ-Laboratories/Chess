@@ -7,34 +7,34 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F8496B15-D78E-449B-A45D-D53B337FCF04</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ChessNow</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>55A9CEA8C88489658B2300CC5BFCE13DBACB341C</key>
-		<string>https://github.com/Looc/ChessNow.git</string>
+		<key>1BF07BC06A7E112F0497CFE1D53F67CCB4E087E1</key>
+		<string>https://github.com/AJ-Laboratories/Chess</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ChessNow/ChessNow.xcodeproj</string>
+	<string>ChessNow.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>55A9CEA8C88489658B2300CC5BFCE13DBACB341C</key>
-		<string>../../..</string>
+		<key>1BF07BC06A7E112F0497CFE1D53F67CCB4E087E1</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Looc/ChessNow.git</string>
+	<string>https://github.com/AJ-Laboratories/Chess</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>55A9CEA8C88489658B2300CC5BFCE13DBACB341C</string>
+	<string>1BF07BC06A7E112F0497CFE1D53F67CCB4E087E1</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>55A9CEA8C88489658B2300CC5BFCE13DBACB341C</string>
+			<string>1BF07BC06A7E112F0497CFE1D53F67CCB4E087E1</string>
 			<key>IDESourceControlWCCName</key>
-			<string>ChessNow</string>
+			<string>Chess</string>
 		</dict>
 	</array>
 </dict>
