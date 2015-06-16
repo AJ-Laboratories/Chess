@@ -10,7 +10,6 @@
 		8F3113FE1A6A8DF80066FE44 /* ChessNowAppicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3113FD1A6A8DF80066FE44 /* ChessNowAppicon.png */; };
 		8F3114001A6A8E3D0066FE44 /* ChessNowAppicon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3113FF1A6A8E3D0066FE44 /* ChessNowAppicon120.png */; };
 		8F63938A1A37799B003E988E /* Objective-C.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6393891A37799B003E988E /* Objective-C.m */; };
-		8FC2AAD31B2F6C2200743029 /* chessIcon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC2AAD21B2F6C2200743029 /* chessIcon180.png */; };
 		8FD8D7CA1A1FE75000DC6BAB /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD8D7C91A1FE75000DC6BAB /* SpriteKit.framework */; };
 		8FE278AC1A37ADE30045F279 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE278AB1A37ADE30045F279 /* Storyboard.storyboard */; };
 		8FE278B01A37B3DE0045F279 /* 4z2J7aVXjPsNM3GaVLXDNQNlhxDHVzcCuEW89MT35PkA.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8FE278AF1A37B3DE0045F279 /* 4z2J7aVXjPsNM3GaVLXDNQNlhxDHVzcCuEW89MT35PkA.jpeg */; };
@@ -26,6 +25,7 @@
 		8FFA0AFF1A1FD09E0035B9C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFA0AFE1A1FD09E0035B9C8 /* Images.xcassets */; };
 		8FFA0B0E1A1FD09E0035B9C8 /* ChessNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA0B0D1A1FD09E0035B9C8 /* ChessNowTests.swift */; };
 		F11C6E021AB46F24003EA2D7 /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F11C6E011AB469B7003EA2D7 /* CaviarDreams.ttf */; };
+		F127475A1B309BBA001855AE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12747531B309BBA001855AE /* FBSDKCoreKit.framework */; };
 		F146A23F1A6165FB00975471 /* whiteRook.png in Resources */ = {isa = PBXBuildFile; fileRef = F146A23E1A6165FB00975471 /* whiteRook.png */; };
 		F146A2411A616A5300975471 /* whiteQueen.png in Resources */ = {isa = PBXBuildFile; fileRef = F146A2401A616A5200975471 /* whiteQueen.png */; };
 		F146A2431A616C5B00975471 /* whiteKing.png in Resources */ = {isa = PBXBuildFile; fileRef = F146A2421A616C5B00975471 /* whiteKing.png */; };
@@ -39,6 +39,9 @@
 		F16B0E261A644FF200AD98CE /* blackQueen.png in Resources */ = {isa = PBXBuildFile; fileRef = F16B0E251A644FF200AD98CE /* blackQueen.png */; };
 		F16B0E281A644FF700AD98CE /* blackKing.png in Resources */ = {isa = PBXBuildFile; fileRef = F16B0E271A644FF700AD98CE /* blackKing.png */; };
 		F1BA7A941A38EEF000C7D578 /* moveOption.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BA7A931A38EEF000C7D578 /* moveOption.png */; };
+		F1BD4F051B30635300D0BC0E /* chessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD4F021B30635300D0BC0E /* chessIcon.png */; };
+		F1BD4F061B30635300D0BC0E /* chessIcon180.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD4F031B30635300D0BC0E /* chessIcon180.png */; };
+		F1BD4F071B30635300D0BC0E /* chessIcon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD4F041B30635300D0BC0E /* chessIcon1024.png */; };
 		F1CA188A1B272787005D1B0A /* chess_analyze-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F1CA18891B272787005D1B0A /* chess_analyze-button.png */; };
 		F1CA188C1B2729C6005D1B0A /* chess_chat-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F1CA188B1B2729C6005D1B0A /* chess_chat-button.png */; };
 		F1E9B68D1B28AAE5003B2038 /* 1497753_700853469935234_1303434664_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1E9B68C1B28AAE5003B2038 /* 1497753_700853469935234_1303434664_n.jpg */; };
@@ -59,10 +62,8 @@
 /* Begin PBXFileReference section */
 		8F3113FD1A6A8DF80066FE44 /* ChessNowAppicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessNowAppicon.png; sourceTree = "<group>"; };
 		8F3113FF1A6A8E3D0066FE44 /* ChessNowAppicon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessNowAppicon120.png; sourceTree = "<group>"; };
-		8F6393871A37799B003E988E /* ChessNow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChessNow-Bridging-Header.h"; sourceTree = "<group>"; };
 		8F6393881A37799B003E988E /* Objective-C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Objective-C.h"; sourceTree = "<group>"; };
 		8F6393891A37799B003E988E /* Objective-C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Objective-C.m"; sourceTree = "<group>"; };
-		8FC2AAD21B2F6C2200743029 /* chessIcon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chessIcon180.png; path = ../../../Pictures/chessIcon180.png; sourceTree = "<group>"; };
 		8FD8D7C91A1FE75000DC6BAB /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		8FE278AB1A37ADE30045F279 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		8FE278AF1A37B3DE0045F279 /* 4z2J7aVXjPsNM3GaVLXDNQNlhxDHVzcCuEW89MT35PkA.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4z2J7aVXjPsNM3GaVLXDNQNlhxDHVzcCuEW89MT35PkA.jpeg; sourceTree = "<group>"; };
@@ -82,6 +83,7 @@
 		8FFA0B0C1A1FD09E0035B9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FFA0B0D1A1FD09E0035B9C8 /* ChessNowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessNowTests.swift; sourceTree = "<group>"; };
 		F11C6E011AB469B7003EA2D7 /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
+		F12747531B309BBA001855AE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		F146A23E1A6165FB00975471 /* whiteRook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteRook.png; sourceTree = "<group>"; };
 		F146A2401A616A5200975471 /* whiteQueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteQueen.png; sourceTree = "<group>"; };
 		F146A2421A616C5B00975471 /* whiteKing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteKing.png; sourceTree = "<group>"; };
@@ -94,7 +96,11 @@
 		F16B0E211A64199000AD98CE /* blackRook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackRook.png; sourceTree = "<group>"; };
 		F16B0E251A644FF200AD98CE /* blackQueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackQueen.png; sourceTree = "<group>"; };
 		F16B0E271A644FF700AD98CE /* blackKing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackKing.png; sourceTree = "<group>"; };
+		F1A657271B308DD50077B3D6 /* ChessNow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChessNow-Bridging-Header.h"; sourceTree = "<group>"; };
 		F1BA7A931A38EEF000C7D578 /* moveOption.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moveOption.png; sourceTree = "<group>"; };
+		F1BD4F021B30635300D0BC0E /* chessIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chessIcon.png; sourceTree = "<group>"; };
+		F1BD4F031B30635300D0BC0E /* chessIcon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chessIcon180.png; sourceTree = "<group>"; };
+		F1BD4F041B30635300D0BC0E /* chessIcon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chessIcon1024.png; sourceTree = "<group>"; };
 		F1CA18891B272787005D1B0A /* chess_analyze-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chess_analyze-button.png"; sourceTree = "<group>"; };
 		F1CA188B1B2729C6005D1B0A /* chess_chat-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chess_chat-button.png"; sourceTree = "<group>"; };
 		F1E9B68C1B28AAE5003B2038 /* 1497753_700853469935234_1303434664_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1497753_700853469935234_1303434664_n.jpg; sourceTree = "<group>"; };
@@ -107,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F127475A1B309BBA001855AE /* FBSDKCoreKit.framework in Frameworks */,
 				8FD8D7CA1A1FE75000DC6BAB /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,7 +158,9 @@
 				F1CA18891B272787005D1B0A /* chess_analyze-button.png */,
 				F1CA188B1B2729C6005D1B0A /* chess_chat-button.png */,
 				F1E9B68C1B28AAE5003B2038 /* 1497753_700853469935234_1303434664_n.jpg */,
-				8FC2AAD21B2F6C2200743029 /* chessIcon180.png */,
+				F1BD4F021B30635300D0BC0E /* chessIcon.png */,
+				F1BD4F031B30635300D0BC0E /* chessIcon180.png */,
+				F1BD4F041B30635300D0BC0E /* chessIcon1024.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -206,13 +215,14 @@
 		8FFA0AF41A1FD09E0035B9C8 /* ChessNow */ = {
 			isa = PBXGroup;
 			children = (
+				F12747531B309BBA001855AE /* FBSDKCoreKit.framework */,
+				F1A657271B308DD50077B3D6 /* ChessNow-Bridging-Header.h */,
 				8F63938B1A377D20003E988E /* Images */,
 				8F63938E1A377D70003E988E /* .storyboards */,
 				8F63938C1A377D46003E988E /* .swift */,
 				8F63938D1A377D56003E988E /* .obj-c */,
 				8FFA0AFE1A1FD09E0035B9C8 /* Images.xcassets */,
 				8FFA0AF51A1FD09E0035B9C8 /* Supporting Files */,
-				8F6393871A37799B003E988E /* ChessNow-Bridging-Header.h */,
 			);
 			path = ChessNow;
 			sourceTree = "<group>";
@@ -292,7 +302,7 @@
 				TargetAttributes = {
 					8FFA0AF11A1FD09E0035B9C8 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = V47FUAKS5S;
+						DevelopmentTeam = G542NRN7XT;
 					};
 					8FFA0B061A1FD09E0035B9C8 = {
 						CreatedOnToolsVersion = 6.1;
@@ -333,7 +343,6 @@
 				8FEC1DF71A38E772004476DC /* pieceMarked.png in Resources */,
 				F153DF7D1A3DFDA2005DC574 /* whiteBishop.png in Resources */,
 				8FEC1DF91A38EF92004476DC /* blackPawn.png in Resources */,
-				8FC2AAD31B2F6C2200743029 /* chessIcon180.png in Resources */,
 				8FFA0AFF1A1FD09E0035B9C8 /* Images.xcassets in Resources */,
 				F1E9B68D1B28AAE5003B2038 /* 1497753_700853469935234_1303434664_n.jpg in Resources */,
 				F16B0E281A644FF700AD98CE /* blackKing.png in Resources */,
@@ -348,13 +357,16 @@
 				F16B0E201A64198B00AD98CE /* blackKnight.png in Resources */,
 				8FEC1DF51A38E565004476DC /* clack and white board with half boarder copy.png in Resources */,
 				F1BA7A941A38EEF000C7D578 /* moveOption.png in Resources */,
+				F1BD4F061B30635300D0BC0E /* chessIcon180.png in Resources */,
 				F146A23F1A6165FB00975471 /* whiteRook.png in Resources */,
 				F1F5F9751ABF4F73008CB21A /* seperation.png in Resources */,
 				F146A2411A616A5300975471 /* whiteQueen.png in Resources */,
 				8FEC1E031A38F7EF004476DC /* piecePossibilities.png in Resources */,
 				8FE278AC1A37ADE30045F279 /* Storyboard.storyboard in Resources */,
+				F1BD4F071B30635300D0BC0E /* chessIcon1024.png in Resources */,
 				F16B0E261A644FF200AD98CE /* blackQueen.png in Resources */,
 				8FEC1DFB1A38F0F5004476DC /* whitePawn.png in Resources */,
+				F1BD4F051B30635300D0BC0E /* chessIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +448,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "ChessNow-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,6 +486,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "ChessNow-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -483,11 +499,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/alexanderpanayotov/Documents/Chess/ChessNow,
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ChessNow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ChessNow/ChessNow-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "ChessNow-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -498,11 +522,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ChessNow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ChessNow/ChessNow-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "ChessNow-Bridging-Header.h";
 			};
 			name = Release;
 		};

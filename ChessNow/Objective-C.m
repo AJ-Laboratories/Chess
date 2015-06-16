@@ -7,7 +7,6 @@
 //
 
 #import "Objective-C.h"
-#import "ChessNow-Swift.h"
 
 
 @interface Objective_C()

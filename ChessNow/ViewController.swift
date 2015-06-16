@@ -456,7 +456,7 @@ var isWhiteTurn = true
 
 class ViewController: UIViewController {
 	
-	let objc = Objective_C()
+	//let objc = Objective_C()
 	
 	@IBOutlet weak var chessBoard: UIImageView!
 	
