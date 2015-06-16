@@ -19,12 +19,12 @@
                     </tabBar>
                     <connections>
                         <segue destination="0EZ-8S-9xq" kind="relationship" relationship="viewControllers" id="OXW-uk-Ryd"/>
-                        <segue destination="23s-ak-9Nj" kind="relationship" relationship="viewControllers" id="M7H-LR-VRR"/>
+                        <segue destination="l6P-HW-c0y" kind="relationship" relationship="viewControllers" id="Yhy-Hv-qyG"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xgq-Zv-SJb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-963" y="716"/>
+            <point key="canvasLocation" x="-937" y="815"/>
         </scene>
         <!--Home-->
         <scene sceneID="56i-j9-VHK">
@@ -36,12 +36,48 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="qTE-l6-IrH" kind="relationship" relationship="rootViewController" id="RUz-A9-Cqc"/>
+                        <segue destination="caj-Uh-tIz" kind="relationship" relationship="rootViewController" id="JXJ-WZ-ZKQ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mAc-6u-o91" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-348" y="815"/>
+        </scene>
+        <!--ChessNow-->
+        <scene sceneID="MnZ-53-CVe">
+            <objects>
+                <viewController id="caj-Uh-tIz" customClass="Home" customModule="ChessNow" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qwQ-ID-MAq"/>
+                        <viewControllerLayoutGuide type="bottom" id="5B2-s3-vnO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yhs-AB-Op7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv3-SQ-aHh">
+                                <rect key="frame" x="192" y="123" width="30" height="30"/>
+                                <state key="normal" title="Test">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qTE-l6-IrH" kind="push" id="Mwk-Ez-XSW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1792337437" green="0.1792337437" blue="0.1792337437" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jv3-SQ-aHh" firstAttribute="top" secondItem="qwQ-ID-MAq" secondAttribute="bottom" constant="79" id="dFg-2q-s3u"/>
+                            <constraint firstItem="jv3-SQ-aHh" firstAttribute="centerX" secondItem="yhs-AB-Op7" secondAttribute="centerX" id="jSg-aL-yfJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="ChessNow" id="NVb-A1-oKW"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UbP-gA-MEo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="163" y="815"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dfa-jg-ktn">
@@ -55,9 +91,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pieces vlack and white board blurred.png" translatesAutoresizingMaskIntoConstraints="NO" id="BFO-lu-ZXa">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clack and white board with half boarder copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="CQN-HI-SIK">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <color key="backgroundColor" red="0.16765309346161616" green="0.16765309346161616" blue="0.16765309346161616" alpha="1" colorSpace="calibratedRGB"/>
@@ -96,10 +129,6 @@
                             <constraint firstAttribute="bottom" secondItem="CQN-HI-SIK" secondAttribute="bottom" id="USW-6q-Klb"/>
                             <constraint firstItem="kN4-Sx-989" firstAttribute="leading" secondItem="CQN-HI-SIK" secondAttribute="leading" id="V8c-N0-O6V"/>
                             <constraint firstAttribute="trailing" secondItem="CQN-HI-SIK" secondAttribute="trailing" id="dXk-dl-seg"/>
-                            <constraint firstItem="BFO-lu-ZXa" firstAttribute="top" secondItem="CQN-HI-SIK" secondAttribute="top" id="ffK-Vb-9Co"/>
-                            <constraint firstItem="BFO-lu-ZXa" firstAttribute="bottom" secondItem="CQN-HI-SIK" secondAttribute="bottom" id="fqZ-eI-7Ex"/>
-                            <constraint firstItem="BFO-lu-ZXa" firstAttribute="trailing" secondItem="CQN-HI-SIK" secondAttribute="trailing" id="gCu-Sw-Ri0"/>
-                            <constraint firstItem="BFO-lu-ZXa" firstAttribute="leading" secondItem="CQN-HI-SIK" secondAttribute="leading" id="spE-Si-mHm"/>
                             <constraint firstItem="kN4-Sx-989" firstAttribute="trailing" secondItem="CQN-HI-SIK" secondAttribute="trailing" id="uCa-bz-gT3"/>
                         </constraints>
                     </view>
@@ -113,25 +142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vPE-ov-V6m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="262" y="795"/>
-        </scene>
-        <!--Profile-->
-        <scene sceneID="mmJ-ny-LIi">
-            <objects>
-                <navigationController id="23s-ak-9Nj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="dtB-Zl-BJI"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gvK-B1-Nc1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="l6P-HW-c0y" kind="relationship" relationship="rootViewController" id="k8k-UY-8gb"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DhG-gK-UZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-361" y="-75"/>
+            <point key="canvasLocation" x="676" y="815"/>
         </scene>
         <!--Profile-->
         <scene sceneID="Bf3-2B-rPk">
@@ -146,6 +157,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.2018821023" green="0.2018821023" blue="0.2018821023" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="FdF-xv-Sbm"/>
                     <navigationItem key="navigationItem" title="Profile" id="ee5-jn-MU2"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
@@ -153,14 +165,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ID4-AS-hCm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="191" y="-75"/>
+            <point key="canvasLocation" x="-348" y="-39"/>
         </scene>
     </scenes>
     <resources>
         <image name="chess_analyze-button.png" width="286" height="286"/>
         <image name="chess_chat-button.png" width="286" height="286"/>
         <image name="clack and white board with half boarder copy.png" width="2000" height="2096"/>
-        <image name="pieces vlack and white board blurred.png" width="2096" height="2096"/>
     </resources>
     <color key="tintColor" red="0.17923374368686873" green="0.17923374368686873" blue="0.17923374368686873" alpha="1" colorSpace="calibratedRGB"/>
 </document>
