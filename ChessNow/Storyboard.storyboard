@@ -135,7 +135,6 @@
                     <navigationItem key="navigationItem" id="Aci-0O-r8Y"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="chessBoard" destination="CQN-HI-SIK" id="BJU-3Z-CWp"/>
                     </connections>
