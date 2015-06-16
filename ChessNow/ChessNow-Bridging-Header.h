@@ -9,6 +9,6 @@
 #ifndef ChessNow_Bridging_Header_h
 #define ChessNow_Bridging_Header_h
 
-#import <FBSDKCoreKit/FBSDKCoreKit.h>
+//#import <FBSDKCoreKit/FBSDKCoreKit.h>
 
 #endif /* ChessNow_Bridging_Header_h */

@@ -19,8 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         
         let appearance = UITabBarItem.appearance()
-        let attributes = [NSFontAttributeName:UIFont(name: "CaviarDreams", size: 16)!]
+        let attributes = [NSFontAttributeName:UIFont(name: "Baskerville", size: 13)!]
         appearance.setTitleTextAttributes(attributes, forState: .Normal)
+        
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSFontAttributeName: UIFont(name: "Baskerville", size: 20)!], forState: .Normal)
+
         return true
     }
 
