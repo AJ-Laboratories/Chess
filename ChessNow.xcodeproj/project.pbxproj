@@ -40,7 +40,6 @@
 		F16B0E281A644FF700AD98CE /* blackKing.png in Resources */ = {isa = PBXBuildFile; fileRef = F16B0E271A644FF700AD98CE /* blackKing.png */; };
 		F1BA7A941A38EEF000C7D578 /* moveOption.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BA7A931A38EEF000C7D578 /* moveOption.png */; };
 		F1BD4F051B30635300D0BC0E /* chessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD4F021B30635300D0BC0E /* chessIcon.png */; };
-		F1BD4F061B30635300D0BC0E /* chessIcon180.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD4F031B30635300D0BC0E /* chessIcon180.png */; };
 		F1BD4F071B30635300D0BC0E /* chessIcon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BD4F041B30635300D0BC0E /* chessIcon1024.png */; };
 		F1CA188A1B272787005D1B0A /* chess_analyze-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F1CA18891B272787005D1B0A /* chess_analyze-button.png */; };
 		F1CA188C1B2729C6005D1B0A /* chess_chat-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F1CA188B1B2729C6005D1B0A /* chess_chat-button.png */; };
@@ -99,7 +98,6 @@
 		F1A657271B308DD50077B3D6 /* ChessNow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChessNow-Bridging-Header.h"; sourceTree = "<group>"; };
 		F1BA7A931A38EEF000C7D578 /* moveOption.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moveOption.png; sourceTree = "<group>"; };
 		F1BD4F021B30635300D0BC0E /* chessIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chessIcon.png; sourceTree = "<group>"; };
-		F1BD4F031B30635300D0BC0E /* chessIcon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chessIcon180.png; sourceTree = "<group>"; };
 		F1BD4F041B30635300D0BC0E /* chessIcon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chessIcon1024.png; sourceTree = "<group>"; };
 		F1CA18891B272787005D1B0A /* chess_analyze-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chess_analyze-button.png"; sourceTree = "<group>"; };
 		F1CA188B1B2729C6005D1B0A /* chess_chat-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chess_chat-button.png"; sourceTree = "<group>"; };
@@ -159,7 +157,6 @@
 				F1CA188B1B2729C6005D1B0A /* chess_chat-button.png */,
 				F1E9B68C1B28AAE5003B2038 /* 1497753_700853469935234_1303434664_n.jpg */,
 				F1BD4F021B30635300D0BC0E /* chessIcon.png */,
-				F1BD4F031B30635300D0BC0E /* chessIcon180.png */,
 				F1BD4F041B30635300D0BC0E /* chessIcon1024.png */,
 			);
 			name = Images;
@@ -357,7 +354,6 @@
 				F16B0E201A64198B00AD98CE /* blackKnight.png in Resources */,
 				8FEC1DF51A38E565004476DC /* clack and white board with half boarder copy.png in Resources */,
 				F1BA7A941A38EEF000C7D578 /* moveOption.png in Resources */,
-				F1BD4F061B30635300D0BC0E /* chessIcon180.png in Resources */,
 				F146A23F1A6165FB00975471 /* whiteRook.png in Resources */,
 				F1F5F9751ABF4F73008CB21A /* seperation.png in Resources */,
 				F146A2411A616A5300975471 /* whiteQueen.png in Resources */,
