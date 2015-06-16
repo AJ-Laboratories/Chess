@@ -4,6 +4,44 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="wul-7R-Q35">
+            <objects>
+                <viewController id="ur0-2H-lrb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q0N-hG-VUk"/>
+                        <viewControllerLayoutGuide type="bottom" id="ae8-js-Y9y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QuK-Qe-wWK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yWg-s2-9SU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7r6-z1-EDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="278" y="-1693"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k22-Z9-1ji">
+            <objects>
+                <viewController id="wXg-bh-HwQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2Wx-n1-rVb"/>
+                        <viewControllerLayoutGuide type="bottom" id="YKY-Lc-4X5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p30-UV-YtW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sEw-Lk-SNa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KSJ-4b-N5X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="278" y="-884"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ji1-wO-v67">
             <objects>
@@ -18,18 +56,20 @@
                     </tabBar>
                     <connections>
                         <segue destination="0EZ-8S-9xq" kind="relationship" relationship="viewControllers" id="OXW-uk-Ryd"/>
-                        <segue destination="l6P-HW-c0y" kind="relationship" relationship="viewControllers" id="Yhy-Hv-qyG"/>
+                        <segue destination="eAQ-C6-53H" kind="relationship" relationship="viewControllers" id="LSy-x7-gWG"/>
+                        <segue destination="qh5-sG-H8P" kind="relationship" relationship="viewControllers" id="UuA-Wm-96J"/>
+                        <segue destination="pyg-Re-ff2" kind="relationship" relationship="viewControllers" id="23k-Uo-rTn"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xgq-Zv-SJb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-937" y="815"/>
         </scene>
-        <!--Home-->
+        <!--Play-->
         <scene sceneID="56i-j9-VHK">
             <objects>
                 <navigationController id="0EZ-8S-9xq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="4BS-1a-5Nd"/>
+                    <tabBarItem key="tabBarItem" title="Play" image="ChessIconTab@3x.png" id="4BS-1a-5Nd"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1vN-jG-A2n">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -42,7 +82,7 @@
             </objects>
             <point key="canvasLocation" x="-348" y="815"/>
         </scene>
-        <!--ChessNow-->
+        <!--Play-->
         <scene sceneID="MnZ-53-CVe">
             <objects>
                 <viewController id="caj-Uh-tIz" customClass="Home" customModule="ChessNow" customModuleProvider="target" sceneMemberID="viewController">
@@ -60,7 +100,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="qTE-l6-IrH" kind="push" id="Mwk-Ez-XSW"/>
+                                    <segue destination="qTE-l6-IrH" kind="show" identifier="" id="aWO-io-qWQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -70,7 +110,7 @@
                             <constraint firstItem="jv3-SQ-aHh" firstAttribute="centerX" secondItem="yhs-AB-Op7" secondAttribute="centerX" id="jSg-aL-yfJ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="ChessNow" id="NVb-A1-oKW"/>
+                    <navigationItem key="navigationItem" title="Play" id="NVb-A1-oKW"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
@@ -94,46 +134,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <color key="backgroundColor" red="0.16765309346161616" green="0.16765309346161616" blue="0.16765309346161616" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="kN4-Sx-989">
-                                <rect key="frame" x="0.0" y="692" width="414" height="44"/>
-                                <items>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="kVd-E8-WeI"/>
-                                    <barButtonItem style="plain" id="plV-WY-VFx">
-                                        <button key="customView" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ggj-8N-HLu">
-                                            <rect key="frame" x="303" y="5" width="37" height="35"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Button" image="chess_analyze-button.png">
-                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            </state>
-                                        </button>
-                                    </barButtonItem>
-                                    <barButtonItem width="7" style="plain" systemItem="fixedSpace" id="dFG-fg-de7"/>
-                                    <barButtonItem style="plain" id="2cw-If-3Fx">
-                                        <button key="customView" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gSr-OZ-TOJ">
-                                            <rect key="frame" x="357" y="2" width="37" height="41"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Button" image="chess_chat-button.png">
-                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            </state>
-                                        </button>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="0.2331123737373737" green="0.2331123737373737" blue="0.2331123737373737" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="kN4-Sx-989" firstAttribute="bottom" secondItem="717-pr-qcR" secondAttribute="top" id="2EX-P9-BI1"/>
                             <constraint firstItem="CQN-HI-SIK" firstAttribute="leading" secondItem="utO-7E-aOr" secondAttribute="leading" id="8Kt-iv-x2T"/>
                             <constraint firstItem="CQN-HI-SIK" firstAttribute="top" secondItem="utO-7E-aOr" secondAttribute="top" id="NhI-eB-hIr"/>
                             <constraint firstAttribute="bottom" secondItem="CQN-HI-SIK" secondAttribute="bottom" id="USW-6q-Klb"/>
-                            <constraint firstItem="kN4-Sx-989" firstAttribute="leading" secondItem="CQN-HI-SIK" secondAttribute="leading" id="V8c-N0-O6V"/>
                             <constraint firstAttribute="trailing" secondItem="CQN-HI-SIK" secondAttribute="trailing" id="dXk-dl-seg"/>
-                            <constraint firstItem="kN4-Sx-989" firstAttribute="trailing" secondItem="CQN-HI-SIK" secondAttribute="trailing" id="uCa-bz-gT3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Aci-0O-r8Y"/>
                     <nil key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="chessBoard" destination="CQN-HI-SIK" id="BJU-3Z-CWp"/>
                     </connections>
@@ -142,34 +153,89 @@
             </objects>
             <point key="canvasLocation" x="676" y="815"/>
         </scene>
-        <!--Profile-->
-        <scene sceneID="Bf3-2B-rPk">
+        <!--Friends-->
+        <scene sceneID="m9U-pn-eGq">
             <objects>
-                <viewController id="l6P-HW-c0y" customClass="Home" customModule="ChessNow" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0zA-3P-R7f" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="2qB-e0-Qba"/>
-                        <viewControllerLayoutGuide type="bottom" id="cYc-6i-dbI"/>
+                        <viewControllerLayoutGuide type="top" id="PFr-TN-MJJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="tnl-XD-AgF"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ex8-tm-MCr">
+                    <view key="view" contentMode="scaleToFill" id="jZ9-ok-Urs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.2018821023" green="0.2018821023" blue="0.2018821023" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="FdF-xv-Sbm"/>
-                    <navigationItem key="navigationItem" title="Profile" id="ee5-jn-MU2"/>
-                    <nil key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <navigationItem key="navigationItem" title="Friends" id="LKT-AK-Pp9"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ID4-AS-hCm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cBf-JW-gWG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-348" y="-39"/>
+            <point key="canvasLocation" x="286" y="-46"/>
+        </scene>
+        <!--Friends-->
+        <scene sceneID="Zbc-RD-58z">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qh5-sG-H8P" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Friends" image="Friends@3x.png" id="cMU-Tq-FMp"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EkO-Vw-hhZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0zA-3P-R7f" kind="relationship" relationship="rootViewController" id="eEx-bd-LBT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fhg-3Q-yRe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-340" y="-46"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="Dws-IR-hgL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pyg-Re-ff2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" image="settingsTabBarIcon@3x.png" id="1xX-aH-LHi"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gid-r6-xvh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ur0-2H-lrb" kind="relationship" relationship="rootViewController" id="87f-BL-9Yv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hxa-AN-dBE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-348" y="-1693"/>
+        </scene>
+        <!--Analyze-->
+        <scene sceneID="G6u-QR-P10">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eAQ-C6-53H" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Analyze" image="Data@3x.png" id="dV8-Io-qma"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ire-aJ-iaR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wXg-bh-HwQ" kind="relationship" relationship="rootViewController" id="8Rm-bV-7Yh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w4A-wE-zkc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-348" y="-884"/>
         </scene>
     </scenes>
     <resources>
-        <image name="chess_analyze-button.png" width="286" height="286"/>
-        <image name="chess_chat-button.png" width="286" height="286"/>
+        <image name="ChessIconTab@3x.png" width="90" height="90"/>
+        <image name="Data@3x.png" width="90" height="90"/>
+        <image name="Friends@3x.png" width="90" height="90"/>
         <image name="clack and white board with half boarder copy.png" width="2000" height="2096"/>
+        <image name="settingsTabBarIcon@3x.png" width="96" height="96"/>
     </resources>
-    <color key="tintColor" red="0.17923374368686873" green="0.17923374368686873" blue="0.17923374368686873" alpha="1" colorSpace="calibratedRGB"/>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

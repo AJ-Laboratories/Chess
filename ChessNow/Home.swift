@@ -16,17 +16,22 @@ class Home: UIViewController {
         // tab-bar and navigation bar
         let nav = self.navigationController?.navigationBar
         nav?.barStyle = UIBarStyle.BlackTranslucent
-        self.navigationController?.navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont(name: "CaviarDreams", size: 18)!, NSForegroundColorAttributeName: UIColor.whiteColor()]
+        self.navigationController?.navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont(name: "Baskerville", size: 22)!, NSForegroundColorAttributeName: UIColor.whiteColor()]
+
+        self.navigationItem.leftBarButtonItem?.setTitleTextAttributes([NSFontAttributeName: UIFont(name: "Baskerville", size: 20)!], forState: UIControlState.Normal)
+        
+
+
        
         self.tabBarController?.tabBar.tintColor = UIColor.whiteColor()
         self.tabBarController?.tabBar.barTintColor = UIColor.blackColor()
-        let appearance = UITabBarItem.appearance()
-        let attributes = [NSFontAttributeName:UIFont(name: "CaviarDreams", size: 20)!]
+        _ = UITabBarItem.appearance()
+        _ = [NSFontAttributeName:UIFont(name: "Baskerville", size: 23)!]
     }
     
     // MARK: - Setup-functions 🔍
     override func prefersStatusBarHidden() -> Bool {
-        return true
+        return false
     }
     
     override func preferredStatusBarUpdateAnimation() -> UIStatusBarAnimation {

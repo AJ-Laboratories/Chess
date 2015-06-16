@@ -475,10 +475,14 @@ class ViewController: UIViewController {
 		}
 		
 		// tab-bar and navigation bar
-		self.tabBarController?.tabBar.hidden = true
+		//self.tabBarController?.tabBar.hidden = true
 		let nav = self.navigationController?.navigationBar
 		nav?.barStyle = UIBarStyle.BlackTranslucent
-		self.navigationController?.navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont(name: "CaviarDreams", size: 18)!, NSForegroundColorAttributeName: UIColor.whiteColor()]
+		self.navigationController?.navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont(name: "Baskerville", size: 22)!, NSForegroundColorAttributeName: UIColor.whiteColor()]
+		self.navigationItem.leftBarButtonItem?.setTitleTextAttributes([NSFontAttributeName: UIFont(name: "Baskerville", size: 20)!], forState: UIControlState.Normal)
+
+
+
 		
 		self.tabBarController?.tabBar.tintColor = UIColor.whiteColor()
 		self.tabBarController?.tabBar.barTintColor = UIColor.blackColor()
@@ -506,7 +510,7 @@ class ViewController: UIViewController {
 	
 	// MARK: - Setup-functions 🔍
 	override func prefersStatusBarHidden() -> Bool {
-		return true
+		return false
 	}
 	
 	override func preferredStatusBarUpdateAnimation() -> UIStatusBarAnimation {
@@ -4821,7 +4825,7 @@ class ViewController: UIViewController {
 									move = num + 1
 									whiteMoves[num].text = (move.description + ".   " ) + xAxisArrStr[t] + yAxisArrStr[g]
 									whiteMoves[num].textColor = UIColor .whiteColor()
-									whiteMoves[num].font = UIFont(name: "CaviarDreams", size: 20)
+									whiteMoves[num].font = UIFont(name: "Baskerville", size: 20)
 									self.view.addSubview(whiteMoves[num])
 									num+=1
 								} else {
@@ -4973,7 +4977,7 @@ class ViewController: UIViewController {
 								}
 								takenPiecesLbl[i].text = "x" + blackCuont[i].description
 								takenPiecesLbl[i].textColor = UIColor.whiteColor()
-								takenPiecesLbl[i].font = UIFont(name: "CaviarDreams", size: 18)
+								takenPiecesLbl[i].font = UIFont(name: "Baskerville", size: 18)
 								takenPiecesLbl[i].textAlignment = NSTextAlignment.Center
 								self.view.addSubview(takenPiecesLbl[i])
 								
