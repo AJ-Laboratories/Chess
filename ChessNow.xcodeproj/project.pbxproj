@@ -10,14 +10,12 @@
 		8F3113FE1A6A8DF80066FE44 /* ChessNowAppicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3113FD1A6A8DF80066FE44 /* ChessNowAppicon.png */; };
 		8F3114001A6A8E3D0066FE44 /* ChessNowAppicon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3113FF1A6A8E3D0066FE44 /* ChessNowAppicon120.png */; };
 		8F63938A1A37799B003E988E /* Objective-C.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6393891A37799B003E988E /* Objective-C.m */; };
-
 		8F78CCE41B30641B00F1E06F /* chessIcon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F78CCE31B30641B00F1E06F /* chessIcon180.png */; };
 		8F78CCE61B3099A500F1E06F /* ChessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F78CCE51B3099A500F1E06F /* ChessIcon.png */; };
 		8F78CCE81B309A2E00F1E06F /* ChessIconTab@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F78CCE71B309A2E00F1E06F /* ChessIconTab@3x.png */; };
 		8F78CCEA1B309BE500F1E06F /* Data@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F78CCE91B309BE500F1E06F /* Data@3x.png */; };
 		8F78CCEC1B309D0000F1E06F /* Friends@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F78CCEB1B309D0000F1E06F /* Friends@3x.png */; };
 		8F78CCEE1B309D7800F1E06F /* settingsTabBarIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F78CCED1B309D7800F1E06F /* settingsTabBarIcon@3x.png */; };
-
 		8FD8D7CA1A1FE75000DC6BAB /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD8D7C91A1FE75000DC6BAB /* SpriteKit.framework */; };
 		8FE278AC1A37ADE30045F279 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE278AB1A37ADE30045F279 /* Storyboard.storyboard */; };
 		8FE278B01A37B3DE0045F279 /* 4z2J7aVXjPsNM3GaVLXDNQNlhxDHVzcCuEW89MT35PkA.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8FE278AF1A37B3DE0045F279 /* 4z2J7aVXjPsNM3GaVLXDNQNlhxDHVzcCuEW89MT35PkA.jpeg */; };
@@ -71,7 +69,6 @@
 		8F3113FF1A6A8E3D0066FE44 /* ChessNowAppicon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessNowAppicon120.png; sourceTree = "<group>"; };
 		8F6393881A37799B003E988E /* Objective-C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Objective-C.h"; sourceTree = "<group>"; };
 		8F6393891A37799B003E988E /* Objective-C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Objective-C.m"; sourceTree = "<group>"; };
-
 		8F78CCE31B30641B00F1E06F /* chessIcon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chessIcon180.png; sourceTree = "<group>"; };
 		8F78CCE51B3099A500F1E06F /* ChessIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChessIcon.png; sourceTree = SOURCE_ROOT; };
 		8F78CCE71B309A2E00F1E06F /* ChessIconTab@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ChessIconTab@3x.png"; sourceTree = SOURCE_ROOT; };
@@ -171,17 +168,14 @@
 				F1CA18891B272787005D1B0A /* chess_analyze-button.png */,
 				F1CA188B1B2729C6005D1B0A /* chess_chat-button.png */,
 				F1E9B68C1B28AAE5003B2038 /* 1497753_700853469935234_1303434664_n.jpg */,
-
 				F1BD4F021B30635300D0BC0E /* chessIcon.png */,
 				F1BD4F041B30635300D0BC0E /* chessIcon1024.png */,
-
 				8F78CCE31B30641B00F1E06F /* chessIcon180.png */,
 				8F78CCE51B3099A500F1E06F /* ChessIcon.png */,
 				8F78CCE71B309A2E00F1E06F /* ChessIconTab@3x.png */,
 				8F78CCEB1B309D0000F1E06F /* Friends@3x.png */,
 				8F78CCE91B309BE500F1E06F /* Data@3x.png */,
 				8F78CCED1B309D7800F1E06F /* settingsTabBarIcon@3x.png */,
-
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -318,12 +312,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Johannes Berge & Alexander Panayotov";
 				TargetAttributes = {
 					8FFA0AF11A1FD09E0035B9C8 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = G542NRN7XT;
+						DevelopmentTeam = V47FUAKS5S;
 					};
 					8FFA0B061A1FD09E0035B9C8 = {
 						CreatedOnToolsVersion = 6.1;
@@ -391,10 +385,8 @@
 				F16B0E261A644FF200AD98CE /* blackQueen.png in Resources */,
 				8FEC1DFB1A38F0F5004476DC /* whitePawn.png in Resources */,
 				F1BD4F051B30635300D0BC0E /* chessIcon.png in Resources */,
-
 				8F78CCE81B309A2E00F1E06F /* ChessIconTab@3x.png in Resources */,
 				8F78CCE61B3099A500F1E06F /* ChessIcon.png in Resources */,
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +450,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -536,6 +529,7 @@
 				INFOPLIST_FILE = ChessNow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JBAP.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
@@ -558,6 +552,7 @@
 				INFOPLIST_FILE = ChessNow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JBAP.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
@@ -579,6 +574,7 @@
 				);
 				INFOPLIST_FILE = ChessNowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JBAP.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChessNow.app/ChessNow";
 			};
@@ -594,6 +590,7 @@
 				);
 				INFOPLIST_FILE = ChessNowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JBAP.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChessNow.app/ChessNow";
 			};
