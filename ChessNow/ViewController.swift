@@ -492,7 +492,7 @@ class ViewController: UIViewController {
 		self.view.addSubview(pieceMarked)
 		pieceMarked.hidden = true
 		
-		//chesspieces loading - REMEMBER TO ADD PIECES TO ARRAYS!! Right order as well!!
+		//chesspieces loading - REMEMBER TO ADD PIECES TO ARRAYS!! Right order as well!!!
 		
 		for var i = 0; i < piecesArrs.count; i++ {
 			for var t = 0; t < piecesArrs[i].count; t++ {
